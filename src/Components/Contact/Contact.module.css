@@ -3,7 +3,7 @@
     flex-direction: column;
     color:pink;
     background: #090909;
-    height: 700px;
+   padding: 2% 4%;
 }
 .div1{
     display: flex;
@@ -24,6 +24,8 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
+    align-items: center;
+    margin-top: 2.5rem;
 }
 .div2left{
     display: flex;
@@ -36,6 +38,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+width: 46%;
 }
 .set{
     display: flex;
@@ -53,9 +56,12 @@ line-height: normal;
 .sp{
     line-height: 28px;
 }
+.div2right{
+    width: 45%;
+}
 .box{
     height: 400px;
-    width: 500px;
+    width: 70%;
     display: inline-flex;
 padding: 42px;
 flex-direction: column;
@@ -66,10 +72,19 @@ border-radius: 20px;
 background: rgba(0, 0, 0, 0.30);
 backdrop-filter: blur(7.5px);
 }
+.box>:nth-child(1){
+    color: #A3A3A3;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 .contactform{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
 }
 .inp{
     background-color: transparent;
@@ -77,7 +92,7 @@ backdrop-filter: blur(7.5px);
     border-bottom: 1px solid var(--grey-tone-g-8, #4C4C4C);
    
     display: flex;
-width: 500px;
+width: 88%;
 padding: 10px;
 align-items: flex-start;
 gap: 10px;

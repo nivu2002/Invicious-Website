@@ -19,12 +19,12 @@ const Contact = () => {
         <div className={css.div2}>
 
 <div className={css.div2left}>
-    <span>From Concept to Reality
+    <span>From Concept to Reality <br />
 Let’s make it happen</span>
 
 <div className={css.set}>
     <img src={Location} alt="" />
-    <span className={css.sp}>124-H, 3rd Floor, Thendral Complex,
+    <span className={css.sp}>124-H, 3rd Floor, Thendral Complex, <br />
 DB Road, RS Puram, Coimbatore - 641002</span>
 </div>
     
