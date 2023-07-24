@@ -69,7 +69,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
             
         </div>
        
-       <div className={css.hrdiv}><hr />   </div>
+       <div className={css.hrdiv}>  </div>
       
       
 
