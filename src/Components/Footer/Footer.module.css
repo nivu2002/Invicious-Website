@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #0E0E0E;
+    /* height: 1000px; */
+    color: #808080;
+    padding: 1% 4%;
+   
+    
+}
+.top{
+    display: flex;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 20%;
+    gap: 1rem;
+    font-size: 16px;
+}
+.icons{
+    display: flex;
+    gap: 0.7rem;
+}
+
+.m2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    width: 20%;
+    font-size: 14px;
+
+}
+.m2>:nth-child(1){
+    color: #FFF;
+   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.m3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 20%;
+    gap: 1rem;
+    font-size: 14px;
+}
+.m3>:nth-child(1){
+    color: #FFF;
+   
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.m4{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 20%;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 14px;
+
+}
+.m4>:nth-child(1){
+    color: #FFF;
+   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mset{
+    display: flex;
+    align-items: flex-start;
+   gap: 1rem;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bleft{
+    display: flex;
+}
+.flist>li{
+    list-style: none;
+}
+.flist{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: -40px;
+}
