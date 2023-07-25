@@ -75,6 +75,9 @@ line-height: normal;
 }
 
 @media screen and (max-width:768px){
+    .container{
+        gap: 0;
+    }
 
     .div1>:nth-child(1){
         font-size: 20px;
@@ -110,6 +113,10 @@ line-height: normal;
         width: 28px;
         height: 26px;
         margin-top: -10px;
+    }
+    .div3{
+        padding: 0% 6%;
+        padding-bottom: 6%;
     }
     }
 

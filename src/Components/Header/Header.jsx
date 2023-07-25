@@ -15,7 +15,7 @@ const Header = () => {
      
       <div className={css.left}>
        <img src={Logo} alt="" />
-       <img src={Invic} alt="" />
+       <img className={css.invic} src={Invic} alt="" />
         
       </div>
 

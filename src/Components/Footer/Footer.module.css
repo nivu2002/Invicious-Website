@@ -34,7 +34,7 @@
     flex-direction: column;
     text-align: left;
     gap: 1rem;
-    width: 20%;
+    /* width: 20%; */
     font-size: 14px;
 
 }
@@ -50,14 +50,14 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 20%;
+    /* width: 20%; */
     gap: 1rem;
     font-size: 14px;
 }
 .m3>:nth-child(1){
     color: #FFF;
    
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -112,4 +112,99 @@ margin-top: 1rem;
 .flist>li:hover{
     cursor: pointer;
     color: #FFF;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+@media screen and (max-width:768px){
+   
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .m1{
+        width: 100%;
+    }
+    .m1>:nth-child(1){
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+    /* .m1,.m4{
+        width: 80%;
+    } */
+    .m2,.m3{
+        width: 40%;
+        align-items: center;
+    }
+    .wrap{
+      
+        width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    }
+    .m2{
+        width: 40%;
+        align-items: flex-start;
+        font-size: 10px;
+    }
+    /* .m2>:nth-child(2){
+        color: yellow;
+        width: 100%;
+    } */
+    .m3{
+        width: 40%;
+        align-items: flex-start;
+        font-size: 10px;
+    }
+    
+    .mset>span{
+        display: flex;
+    }
+    .m4{
+        display: flex;
+        width: 100%;
+        font-size: 10px;
+        margin-top: 1.3rem;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flist{
+        font-size: 10px;
+    }
+    .m2>:nth-child(1){
+        font-size: 12px;
+    }
+   
+    .m3>:nth-child(1){
+        font-size: 12px;
+    }
+   
+    .m4>:nth-child(1){
+        font-size: 12px;
+    }
+    .bright>:nth-child(1){
+        font-size: 10px;
+    }
+   
 }

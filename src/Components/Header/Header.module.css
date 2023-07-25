@@ -34,6 +34,9 @@ line-height: normal;
    
 }
 @media screen and (max-width:768px){
+    .invic{
+        display: none;
+    }
     .ulist{
         display: flex;
         flex-direction: column;

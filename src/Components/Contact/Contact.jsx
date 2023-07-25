@@ -51,7 +51,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
         <input className={css.inp} type="email" name="" id="" placeholder='Mail' />
         <input className={css.inp} type="text" name="" id="" placeholder='Subject' />
         <input className={css.inp} type="text" name="" id="" placeholder='Message(Optional)' />
-        
+        <button className={css.sentbtn}>Send</button>
      </form>
     </div>
 </div>

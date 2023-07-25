@@ -29,11 +29,13 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                 <img src={Insta} alt="" />
             </div>
             </div>
-
+<div className={css.wrap}>
             <div className={css.m2}>
                 <span>Products</span>
-                <span>Tributors</span>
+                <span>Invicious - IT Consultancy</span>
                 <span>Batcave</span>
+                <span>Tributors</span>
+                <span>Green Castle</span>
             </div>
 
             <div className={css.m3}>
@@ -43,7 +45,7 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
                 <span>Our partners</span>
                 <span>Cookies Policy</span>
                 <span>Careers</span>
-            </div>
+            </div> </div>
 
             <div className={css.m4}>
                 <span>Contact info</span>
