@@ -106,3 +106,10 @@ font-style: normal;
 
 line-height: normal;
 }
+
+@media screen and (max-width:768px){
+    .div2{
+        display: flex;
+        flex-direction: column;
+    }
+}

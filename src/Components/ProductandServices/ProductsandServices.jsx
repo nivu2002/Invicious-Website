@@ -49,12 +49,12 @@ const ProductsandServices = () => {
                 <img src={IT1} alt="" />
                 <span>IT Services</span>
             </div>
-            <div> <img src={Carrow} alt="" /></div>
+            <div> <img className={css.carrow} src={Carrow} alt="" /></div>
             <div className={css.services}>
                 <img src={IT2} alt="" />
                 <span>IT Consultancy</span>
             </div>
-            <div> <img src={Carrow} alt="" /></div>
+            <div> <img className={css.carrow} src={Carrow} alt="" /></div>
             <div className={css.services}>
                 <img src={IT3} alt="" />
                 <span>It Services</span>

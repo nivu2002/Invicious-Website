@@ -73,3 +73,50 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+@media screen and (max-width:768px){
+
+    .div1>:nth-child(1){
+        font-size: 20px;
+    }
+    .div2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .products{
+        width: 40%;
+    }
+    .imgs{
+        height: 50px;
+        width: 115px;
+    }
+    .btv{
+        height: 50px;
+        width: 115px;
+       
+    }
+    .products>:nth-child(2){
+        font-size: 12px;
+    }
+
+    .services>img{
+        height: 40px;
+    }
+    .services>:nth-child(2){
+        font-size: 10px;
+    }
+    .carrow{
+        width: 28px;
+        height: 26px;
+        margin-top: -10px;
+    }
+    }
+
+
+
+
+
+
+
+
