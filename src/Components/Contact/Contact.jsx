@@ -10,7 +10,7 @@ import Insta from "../../assets/instagram logo.svg"
 
 const Contact = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="contact">
 
         <div className={css.div1}>
             <span>CONTACT US!</span>

@@ -5,7 +5,7 @@ import Invic2 from "../../assets/INVICIOUS2.svg";
 
 const Main = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="home">
       <div className={css.div1}>
         <img src={Logo} alt="" />
       </div>

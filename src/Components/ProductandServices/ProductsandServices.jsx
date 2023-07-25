@@ -2,8 +2,9 @@ import React from 'react'
 import css from "./ProductsandServices.module.css"
 import Inv from "../../assets/iNVICIOUS LOGO.svg"
 // import Batcave from "../../assets/btv.svg"
-import Batcave from "../../assets/batcavenew.svg"
-import Trib from "../../assets/TC logo.svg"
+import Batcave from "../../assets/newbatcavelogo.png"
+import Trib from "../../assets/tributornew.png"
+
 import IT1 from "../../assets/itservice.svg"
 import IT2 from "../../assets/itconsultancy.svg"
 import IT3 from "../../assets/it.svg"
@@ -13,7 +14,7 @@ import Carrow from "../../assets/curvearrow.svg"
 
 const ProductsandServices = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="products">
         <div className={css.div1}>
             <span>PRODUCTS & SERVICES
 

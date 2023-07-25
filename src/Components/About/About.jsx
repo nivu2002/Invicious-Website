@@ -1,9 +1,10 @@
 import React from 'react'
 import css from "./About.module.css"
+import In from "../../assets/Group 55.svg"
 
 const About = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="about">
       <div className={css.left}>
 
 <span className={css.span1}>WHO WE ARE !</span>
@@ -22,7 +23,8 @@ const About = () => {
 
       <div className={css.right}>
          <div className={css.box}>
-            <span className={css.sp2}>Invicious</span>
+            {/* <span className={css.sp2}>Invicious</span> */}
+            <img className={css.sp2} src={In} alt="" />
          </div>
       </div>
     </div>

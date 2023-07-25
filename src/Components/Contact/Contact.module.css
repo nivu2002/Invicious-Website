@@ -38,7 +38,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-width: 46%;
+/* width: 46%; */
 }
 .set{
     display: flex;
@@ -97,4 +97,12 @@ padding: 10px;
 align-items: flex-start;
 gap: 10px;
 color: white;
+}
+::placeholder{
+    color: var(--grey-tone-g-8, #4C4C4C);
+
+font-size: 16px;
+font-style: normal;
+
+line-height: normal;
 }
