@@ -33,3 +33,14 @@ line-height: normal;
   gap: 2rem;
    
 }
+@media screen and (max-width:768px){
+    .ulist{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(115, 206, 17);
+      padding: 2%;
+    }
+    .ulist>li{
+        font-size: 14px;
+    }
+}
