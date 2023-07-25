@@ -7,6 +7,7 @@ import Insta from "../../assets/instagram logo.svg"
 import Location from "../../assets/Location.svg"
 import Phone from "../../assets/Phone.svg"
 import Mail from "../../assets/Mail.svg"
+import { Link } from 'react-scroll'
 
 
 const Footer = () => {
@@ -77,11 +78,11 @@ DB Road, RS Puram, Coimbatore - 641002</span>
        <div className={css.bottom}>
         {/* <div className={css.bleft}> */}
         <ul className={css.flist}>
-             <li>Home</li>
-            <li>About</li>
-            <li>Products</li>
-            <li>Service</li>
-            <li>Contact</li>
+        <li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
+            <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
+            <li> <Link to="products" spy={true} smooth={true}> Products and Services </Link> </li>
+            {/* <li> <Link to="home" spy={true} smooth={true}> Service  </Link> </li> */}
+            <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li>
         </ul>
         {/* </div> */}
 

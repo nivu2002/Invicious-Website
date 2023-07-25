@@ -109,3 +109,7 @@ margin-top: 1rem;
     gap: 2rem;
     margin-left: -40px;
 }
+.flist>li:hover{
+    cursor: pointer;
+    color: #FFF;
+}

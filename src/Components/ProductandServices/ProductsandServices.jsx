@@ -2,7 +2,10 @@ import React from 'react'
 import css from "./ProductsandServices.module.css"
 import Inv from "../../assets/iNVICIOUS LOGO.svg"
 // import Batcave from "../../assets/btv.svg"
-import Batcave from "../../assets/newbatcavelogo.png"
+// import Batcave from "../../assets/batcavenew.svg"
+
+
+import Batcave from "../../assets/newbatcavelogo.png" 
 import Trib from "../../assets/tributornew.png"
 
 import IT1 from "../../assets/itservice.svg"
@@ -23,7 +26,7 @@ const ProductsandServices = () => {
 
         <div className={css.div2}>
             <div className={css.products}>
-            <img src={Inv} alt="" />
+            <img className={css.imgs} src={Inv} alt="" />
             <span>Invicious</span>
             </div>
             <div className={css.products}>
@@ -31,11 +34,11 @@ const ProductsandServices = () => {
             <span>Batcave</span>
             </div>
             <div className={css.products}> 
-            <img src={Trib} alt="" />
+            <img className={css.imgs}  src={Trib} alt="" />
             <span>Tributor</span>
             </div>
             <div className={css.products}>
-                <img src={Green} alt="" />
+                <img className={css.imgs} src={Green} alt="" />
                 <span>Green Castel</span>
             </div>
          

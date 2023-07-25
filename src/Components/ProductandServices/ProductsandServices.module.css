@@ -27,20 +27,24 @@ line-height: 40px; /* 133.333% */
     justify-content: center;
     gap: 1rem;
 }
-.products>img{
+.imgs{
     height: 90px;
     width: 200px;
 }
 .btv{
-   /* height: 140px;  */
+   /* height: 90px;  */
+   width: 200px;
+   /* margin-top: -20px; */
 }
 .products>:nth-child(2){
-    color: #FFF;
+ 
+
+color: var(--grey-tone-g-2, #E6E6E6);
 text-align: center;
 
 font-size: 20px;
 font-style: normal;
-font-weight: 600;
+/* font-weight: 600; */
 line-height: normal;
 
 }
