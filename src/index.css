@@ -28,3 +28,9 @@ code {
   /* background-color: red; */
 
 }
+@media screen and (max-width:768px){
+  #myBtn{
+    width: 20px;
+    right: 0;
+  }
+}
