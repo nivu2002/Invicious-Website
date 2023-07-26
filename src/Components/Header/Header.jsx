@@ -14,7 +14,7 @@ const Header = () => {
     <div className={css.container} >
      
       <div className={css.left}>
-       <img src={Logo} alt="" />
+       <img className={css.logo} src={Logo} alt="" />
        <img className={css.invic} src={Invic} alt="" />
         
       </div>
@@ -24,10 +24,10 @@ const Header = () => {
     
       {menuOpened === false && mobile === true ? (
         <div onClick={() => setMenuOpened(true)}>
-          <img
+          <img className={css.bars}
             src={Bars}
             alt=""
-            style={{ width: "1.4rem", height: "1.1rem" }}
+           
           />
         </div>
       ) : (

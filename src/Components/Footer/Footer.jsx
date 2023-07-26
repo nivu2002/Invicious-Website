@@ -31,7 +31,7 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
             </div>
 <div className={css.wrap}>
             <div className={css.m2}>
-                <span>Products</span>
+                <span>Products and Services</span>
                 <span>Invicious - IT Consultancy</span>
                 <span>Batcave</span>
                 <span>Tributors</span>
@@ -80,11 +80,17 @@ DB Road, RS Puram, Coimbatore - 641002</span>
        <div className={css.bottom}>
         {/* <div className={css.bleft}> */}
         <ul className={css.flist}>
-        <li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
+        {/* <li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
             <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
             <li> <Link to="products" spy={true} smooth={true}> Products and Services </Link> </li>
-            {/* <li> <Link to="home" spy={true} smooth={true}> Service  </Link> </li> */}
-            <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li>
+            <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> */}
+
+
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
         </ul>
         {/* </div> */}
 

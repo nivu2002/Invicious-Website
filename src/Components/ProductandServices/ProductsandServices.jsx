@@ -26,18 +26,43 @@ const ProductsandServices = () => {
 
         <div className={css.div2}>
             <div className={css.products}>
+                <div className={css.test}>
+                    <span>Invicious Tech Consultancy:
+                        Levering three years of expertise, we empower
+                        businesses with cutting-edge IT solutionsand expert guidance for
+                         seamless growth and innovation
+                    </span>
+                </div>
             <img className={css.imgs} src={Inv} alt="" />
             <span>Invicious</span>
             </div>
+
             <div className={css.products}>
+            <div className={css.test}>
+                    <span>A heaven for car enthusiasts with car meets, a car mall,
+                        a drag race track,exclusive membership perks,and expansion plans,plus
+                        a dedicated community app.
+                    </span>
+                </div>
             <img className={css.btv} src={Batcave} alt="" />
             <span>Batcave</span>
             </div>
             <div className={css.products}> 
+            <div className={css.test}>
+                <span>Our film industry software solutions,including a movie ticket
+                    booking app,revolutionized distribution to management,
+                    making it more faster and more efficient.
+                </span>
+            </div>
             <img className={css.imgs}  src={Trib} alt="" />
             <span>Tributor</span>
             </div>
             <div className={css.products}>
+                <div className={css.test}>
+                    The Green Castle Construction Company,with 17 years of expertise,delivers
+                    cutting-edge,eco-construction solution for a greenr future.Empowering clients
+                    with modern and innovative construction process.
+                </div>
                 <img className={css.imgs} src={Green} alt="" />
                 <span>Green Castel</span>
             </div>
