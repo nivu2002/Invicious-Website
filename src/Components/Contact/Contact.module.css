@@ -7,6 +7,7 @@
     background-size: cover;
     /* background-image: url(../../assets/contactbg.png), lightgray 50% / cover no-repeat; */
    padding: 2% 4%;
+   padding-top: 5rem;
 }
 .div1{
     display: flex;

@@ -33,7 +33,7 @@ const Header = () => {
       ) : (
         <ul className={css.ulist} onClick={()=>setMenuOpened(false)}>
           {mobile? <div className={css.main}>
-            <div className={css.m1}> <img src={Logo} alt="" /> <img src={Invic} alt="" />  </div>
+            <div className={css.m1}> <img className={css.logo} src={Logo} alt="" /> <img src={Invic} alt="" />  </div>
             <div className={css.m2}> X</div>
              </div>:""}
          

@@ -1,5 +1,11 @@
 import React from 'react'
 import css from "./Team.module.css"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination"
+
 
 const Team = () => {
   return (
@@ -23,27 +29,54 @@ const Team = () => {
      </div>
 
      <div className={css.div3}>
+        <Swiper
+        
+       breakpoints={{
+        786: {
+          slidesPerView: 4,
+        },
+        0: {
+          slidesPerView: 1,
+        },
+      }}
+      modules={[Pagination]}
+         pagination={true}
+        //  pagination={{ clickable: true }}
+         loopFillGroupWithBlank={true}
+         slidesPerView={4}
+         spaceBetween={10}
+         slidesPerGroup={1}
+         loop={true}
+         
+        >
+
+      
+        <SwiperSlide> 
         <div className={css.box2}>
             <span>Nivetha S</span>
             <span>UI/UX Designer</span>
             <span>Nivetha is responsible for creating intuitive and engaging user interfaces. With a keen eye for detail and passion for design, and her expertise, she helps Invicious create user friendly products.</span>
             
-        </div>
+        </div> </SwiperSlide>
+        <SwiperSlide> 
         <div className={css.box2}>
             <span>Anamika Devi G</span>
             <span>Back End Developer</span>
             <span>As a backend developer at Invicious, Anamika comes with a strong background in computer science and software engineering. Her technical expertise ensures that our products are robust, reliable and scalable.</span>
-        </div>
+        </div>  </SwiperSlide>
+        <SwiperSlide> 
         <div className={css.box2}>
             <span>Alhad T M</span>
             <span>Front End Developer</span>
             <span>Alhad brings a strong sense of design and functionality to every project, with a passion for creating interactive and engaging user interfaces. His expertise in the field ensures the high-quality and responsiveness of our products.</span>
-        </div>
+        </div>  </SwiperSlide>
+        <SwiperSlide> 
         <div className={css.box2}>
             <span>Karthikeyan</span>
             <span>UI/UX Designer</span>
             <span>As a UI/UX Designer at invicious, Karthikeyan has a strong sense of product research & development of a responsible product based on high-fidelity prototypes, Integrating user-centered designs and technologies.</span>
-        </div>
+        </div>  </SwiperSlide>
+        </Swiper> 
      </div>
 
 

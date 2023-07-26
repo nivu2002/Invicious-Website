@@ -4,6 +4,8 @@
     background: #121212;
   padding: 2% 4%;
   gap: 2rem;
+  padding-top: 5rem;
+ 
 }
 .div1>:nth-child(1){
     color: #FFF;
@@ -31,6 +33,8 @@ line-height: 40px; /* 133.333% */
 .imgs{
     height: 90px;
     width: 200px;
+    /* z-index: 325;
+    position: relative; */
 }
 .btv{
    /* height: 90px;  */
@@ -127,6 +131,10 @@ line-height: normal;
 }
 
 @media screen and (max-width:768px){
+    /* .container{
+        position: relative;
+        z-index: 1;
+    } */
     .test{
         height: 95px;
         width: 120px;
