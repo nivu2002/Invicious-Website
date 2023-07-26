@@ -32,12 +32,17 @@ const Header = () => {
         </div>
       ) : (
         <ul className={css.ulist} onClick={()=>setMenuOpened(false)}>
+          {mobile? <div className={css.main}>
+            <div className={css.m1}> <img src={Logo} alt="" /> <img src={Invic} alt="" />  </div>
+            <div className={css.m2}> X</div>
+             </div>:""}
+         
             <li> <Link onClick={() => setMenuOpened(!menuOpened)} to="home" spy={true} smooth={true}> Home  </Link> </li>
             <li> <Link onClick={() => setMenuOpened(false)} to="about" spy={true} smooth={true}> About  </Link> </li>
             <li onClick={() => setMenuOpened(false)}> <Link onClick={() => setMenuOpened(false)} to="products" spy={true} smooth={true}> Products and Services </Link> </li>
             {/* <li> <Link to="home" spy={true} smooth={true}> Service  </Link> </li> */}
             <li> <Link onClick={() => setMenuOpened(false)} to="contact" spy={true} smooth={true}> Contact </Link> </li>
-          
+        
         </ul> ) }
         
       </div>
