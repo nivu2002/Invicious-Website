@@ -159,6 +159,7 @@ text-align: left
     }
 }
 @media screen and (max-width:786px){
+   
     .div1>:nth-child(1){
         font-size: 14px;
         width: 100%;

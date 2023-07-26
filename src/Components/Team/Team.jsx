@@ -29,7 +29,7 @@ const Team = () => {
      </div>
 
      <div className={css.div3}>
-        <Swiper
+        <Swiper cl
         
        breakpoints={{
         786: {

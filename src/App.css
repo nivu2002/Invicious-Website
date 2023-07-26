@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.swiper-pagination-bullet{
+  background-color: var(--grey-tone-g-5, #999) !important;
+
+}

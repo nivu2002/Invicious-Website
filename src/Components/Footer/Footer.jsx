@@ -44,7 +44,7 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
             <div className={css.m3}>
                 <span>Important links</span>
 
-                <span>Orginization Team</span>
+                <span>Organization Team</span>
                 <span>Our partners</span>
                 <span>Cookies Policy</span>
                 <span>Careers</span>
