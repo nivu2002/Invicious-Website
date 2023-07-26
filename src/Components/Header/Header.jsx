@@ -4,6 +4,7 @@ import Logo from "../../assets/Logo.svg"
 import Invic from "../../assets/INVICIOUS.svg"
 import Bars from "../../assets/bars.svg"
 import { Link } from 'react-scroll'
+import Close from "../../assets/close.png"
 
 
 const Header = () => {
@@ -34,7 +35,7 @@ const Header = () => {
         <ul className={css.ulist} onClick={()=>setMenuOpened(false)}>
           {mobile? <div className={css.main}>
             <div className={css.m1}> <img className={css.logo} src={Logo} alt="" /> <img src={Invic} alt="" />  </div>
-            <div className={css.m2}> X</div>
+            <div className={css.m2}> <img src={Close} alt="" /></div>
              </div>:""}
          
             <li> <Link onClick={() => setMenuOpened(!menuOpened)} to="home" spy={true} smooth={true}> Home  </Link> </li>

@@ -126,6 +126,9 @@ color: var(--grey-tone-g-3, #CCC);
 
 font-size: 18px;
 }
+.aspan{
+    color: var(--grey-tone-g-6, #808080);
+}
 
 @media screen and (max-width:768px){
     .container{
@@ -155,7 +158,7 @@ font-size: 18px;
         /* padding: 24px 16px;
         width: 80%;
         height: 300px; */
-        width: 50%;
+        /* width: 50%; */
     }
     .box>:nth-child(1){
         font-size: 18px;

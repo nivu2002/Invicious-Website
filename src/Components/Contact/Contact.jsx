@@ -35,7 +35,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
 
     <div className={css.set}> 
     <img src={Mail} alt="" /> 
-    <span>contact@inivicious.in</span>
+    <a href="mailto: contact@invicious.in"> <span className={css.aspan} >contact@invicious.in</span> </a>  
     </div>
    
 </div>

@@ -24,9 +24,12 @@ const Footer = () => {
                 <span>Invicious is committed to creating innovative solutions that redefine the digital landscape. 
 Join us on our mission to make a positive impact and build a brighter tomorrow.</span>
             <div className={css.icons}>
-                <img src={Twitter} alt="" />
+                {/* <img src={Twitter} alt="" />
                 <img src={Fb} alt="" />
-                <img src={Insta} alt="" />
+                <img src={Insta} alt="" /> */}
+                <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
+           <a href="https://www.linkedin.com/company/invicious">  <img src={Fb} alt="" /> </a>  
+            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
             </div>
             </div>
 <div className={css.wrap}>
@@ -61,7 +64,7 @@ DB Road, RS Puram, Coimbatore - 641002</span>
                 </div>
                 <div className={css.mset}>
                     <img src={Mail} alt="" />
-                    <span>contact@inivicious.in</span>
+                    <a href="mailto: contact@invicious.in"> <span className={css.aspan} >contact@invicious.in</span> </a>  
                 </div>
 
 
