@@ -40,7 +40,7 @@ const Header = () => {
          
             <li> <Link onClick={() => setMenuOpened(!menuOpened)} to="home" spy={true} smooth={true}> Home  </Link> </li>
             <li> <Link onClick={() => setMenuOpened(false)} to="about" spy={true} smooth={true}> About  </Link> </li>
-            <li onClick={() => setMenuOpened(false)}> <Link onClick={() => setMenuOpened(false)} to="products" spy={true} smooth={true}> Products and Services </Link> </li>
+            <li onClick={() => setMenuOpened(false)}> <Link onClick={() => setMenuOpened(false)} to="products" spy={true} smooth={true}> Products & Services </Link> </li>
             {/* <li> <Link to="home" spy={true} smooth={true}> Service  </Link> </li> */}
             <li> <Link onClick={() => setMenuOpened(false)} to="contact" spy={true} smooth={true}> Contact </Link> </li>
         

@@ -16,6 +16,7 @@
 .div1>:nth-child(1){
     color: #FFF;
     text-align: right;
+    font-family: Poppins;
    
     font-size: 30px;
     font-style: normal;
@@ -133,11 +134,17 @@ font-size: 18px;
 @media screen and (max-width:768px){
     .container{
         padding: 4% 1%;
+        background-image: none;
+       
     }
     .div2{
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        background-image: url(../../assets/contactbgmobile.png) ;
+        background-size: contain;
+        background-position-y: center;
+       
     }
     .div1>:nth-child(1){
         font-size: 20px;
@@ -153,6 +160,10 @@ font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
+     
+       
+       
+       
     }
     .box{
         /* padding: 24px 16px;

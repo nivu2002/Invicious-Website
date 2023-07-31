@@ -34,7 +34,7 @@ Join us on our mission to make a positive impact and build a brighter tomorrow.<
             </div>
 <div className={css.wrap}>
             <div className={css.m2}>
-                <span>Products and Services</span>
+                <span>Products & Services</span>
                 <span>Invicious - IT Consultancy</span>
                 <span>Batcave</span>
                 <span>Tributors</span>
@@ -89,9 +89,9 @@ DB Road, RS Puram, Coimbatore - 641002</span>
             <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> */}
 
 
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+<li> <Link to="home" spy={true} smooth={true}> Home  </Link> </li>
+            <li> <Link to="about" spy={true} smooth={true}> About  </Link> </li>
+        <li> <Link to="contact" spy={true} smooth={true}> Contact </Link> </li> 
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
         </ul>

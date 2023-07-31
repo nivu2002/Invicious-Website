@@ -60,7 +60,7 @@ text-align: left;
    
     font-size: 26px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     text-align: center;
 }
@@ -113,7 +113,7 @@ line-height: normal;
    
     font-size: 22px; 
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     width: 101%;
     text-align: center;
@@ -204,6 +204,7 @@ text-align: left
     .div3{
         display: flex;
         justify-content: space-between;
+        /* height: 242px; */
        
        
     }

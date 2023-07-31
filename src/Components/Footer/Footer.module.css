@@ -43,7 +43,7 @@
    
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
 }
 .m3{
@@ -59,7 +59,7 @@
    
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
 }
 .m4{
@@ -77,7 +77,7 @@
    
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
 }
 .mset{
@@ -116,7 +116,8 @@ margin-top: 1rem;
 .wrap{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 35%;
+    gap: 1rem;
 }
 .aspan{
     color: var(--grey-tone-g-6, #808080);
