@@ -32,13 +32,13 @@ line-height: 40px; /* 133.333% */
 }
 .imgs{
     height: 90px;
-    width: 200px;
+    width: 180px;
     /* z-index: 325;
     position: relative; */
 }
 .btv{
-   /* height: 90px;  */
-   width: 200px;
+   height: 90px; 
+   width: 180px;
    /* margin-top: -20px; */
 }
 .products>:nth-child(3){
@@ -163,6 +163,7 @@ line-height: normal;
     .btv{
         height: 50px;
         width: 115px;
+        /* margin-bottom: 4px; */
        
     }
     .products>:nth-child(2){

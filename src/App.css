@@ -39,5 +39,11 @@
 
 .swiper-pagination-bullet{
   background-color: var(--grey-tone-g-5, #999) !important;
+  /* height: 6px !important; */
 
+}
+.swiper-pagination-bullet-active{
+  width: 24px !important;
+  border-radius: 8px !important;
+  height: 8px !important;
 }

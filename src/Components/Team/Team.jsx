@@ -15,7 +15,7 @@ const Team = () => {
         <span> Meet the Invicious Team</span>
      </div>
 
-     <div className={css.div2}>
+     {/* <div className={css.div2}>
         <div className={css.box1}>
             <span>Barathi M S</span>
             <span>Co-founder & CEO</span>
@@ -26,22 +26,25 @@ const Team = () => {
             <span>CFO (Invicious Metacorp (P) Ltd.)</span>
             <span>With an eye for detail and a focus, Sinchana ensures that the company operates smoothly and efficiently. Her various skill sets in finance and administration enable her to manage the financial aspects of the business, ensuring the growth of Invicious</span>
         </div>
-     </div>
+     </div> */}
 
      <div className={css.div3}>
         <Swiper cl
         
        breakpoints={{
-        786: {
-          slidesPerView: 4,
+        800:{
+          slidesPerView:3,
+        },
+        650: {
+          slidesPerView: 2,
         },
         0: {
           slidesPerView: 1,
         },
       }}
       modules={[Pagination]}
-         pagination={true}
-        //  pagination={{ clickable: true }}
+        //  pagination={true}
+         pagination={{ clickable: true }}
          loopFillGroupWithBlank={true}
          slidesPerView={4}
          spaceBetween={10}
@@ -49,6 +52,26 @@ const Team = () => {
          loop={true}
          
         >
+            <SwiperSlide> 
+        <div className={css.box2}>
+        <span>Barathi M S</span>
+            <span>Co-founder & CEO</span>
+            <span>With a diverse set of skills that spans across the entire spectrum
+               of software development, and a wealth of experience, Barathi works
+                meticulously to drive Invicious forward in the fast-paced world
+                 of technology.</span>
+            
+        </div> </SwiperSlide>
+        <SwiperSlide> 
+        <div className={css.box2}>
+        <span>Sinchana L</span>
+            <span>CFO (Invicious Metacorp (P) Ltd.)</span>
+            <span>With an eye for detail and a focus, Sinchana ensures that the company
+               operates smoothly and efficiently. Her various skill sets in finance and
+                administration enable her to manage the financial aspects of
+                 the business, ensuring the growth of Invicious</span>
+            
+        </div> </SwiperSlide>
 
       
         <SwiperSlide> 

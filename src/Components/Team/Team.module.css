@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding-bottom: 3.2rem;
+    /* padding-bottom: 3.2rem; */
     padding-top: 1rem;
    
 }
@@ -87,6 +87,7 @@ line-height: normal;
 .div3{
     display: flex;
     justify-content: space-between;
+    height: 315px;
    
    
 }
@@ -102,8 +103,8 @@ line-height: normal;
     padding: 4% 4%;
     /* width: 20%; */
     text-align: left;
-    height: 260px;
-    
+    height: 235px;
+    /* justify-content: center;align-items: center; */
   
 
 }
@@ -135,7 +136,7 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-text-align: left
+text-align: center
     
 
 }
@@ -150,12 +151,18 @@ text-align: left
 }
 @media  screen and (min-width: 769px) and (max-width: 999px){
     .box2{
-        height: 388px;
+        height: 303px;
+    }
+    .div3{
+        height: 373px;
     }
 }
-@media  screen and (min-width: 999px) and (max-width: 1100px){
+@media  screen and (min-width: 999px) and (max-width: 1110px){
     .box2{
         height: 288px;
+    }
+    .div3{
+        height: 343px;
     }
 }
 @media screen and (max-width:786px){
@@ -204,7 +211,7 @@ text-align: left
     .div3{
         display: flex;
         justify-content: space-between;
-        /* height: 242px; */
+        height: 258px;
        
        
     }
@@ -240,4 +247,9 @@ text-align: left
 
 
     
+}
+@media  screen and (min-width: 800px) and (max-width: 1110px){
+.box2>:nth-child(2){
+    font-size: 16px;
+}
 }
