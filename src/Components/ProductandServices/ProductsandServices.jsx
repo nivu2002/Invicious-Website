@@ -64,7 +64,7 @@ const ProductsandServices = () => {
                     with modern and innovative construction process.
                 </div>
                 <img className={css.imgs} src={Green} alt="" />
-                <span>Green Castel</span>
+                <span>GreenCastle</span>
             </div>
          
         </div>

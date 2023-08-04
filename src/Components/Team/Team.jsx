@@ -65,7 +65,7 @@ const Team = () => {
         <SwiperSlide> 
         <div className={css.box2}>
         <span>Sinchana L</span>
-            <span>CFO (Invicious Metacorp (P) Ltd.)</span>
+            <span>CFO</span>
             <span>With an eye for detail and a focus, Sinchana ensures that the company
                operates smoothly and efficiently. Her various skill sets in finance and
                 administration enable her to manage the financial aspects of

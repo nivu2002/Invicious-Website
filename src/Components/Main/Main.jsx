@@ -17,7 +17,9 @@ const Main = () => {
       <div className={css.div3}>
         <span>
           Invicious is committed to creating innovative solutions that redefine
-          the digital landscape. Want to learn more about our innovative
+          the digital landscape. 
+          <br></br>
+          Want to learn more about our innovative
           products?
         </span>
       </div>
